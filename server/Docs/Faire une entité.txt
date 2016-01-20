@@ -1,0 +1,13 @@
+
+Voici un tutoriel pour créer une entité dans le jeu R-Wars :
+
+Pré-requis :
+	- un éditeur de texte (Notepad++, nano, emacs, ...)
+	- MinGW ou g++
+
+	1 -> Ajouter votre ressources dans le dossier "client/resources/sprites"
+	2 -> Éditez le fichier "client/resources/sprites/config.cfg" en ajoutant à la fin du fichier
+		 le numéro qui suit le précédant puis ":" et enfin le chemin à partir du client.exe.
+		 Exemple: "42:./resources/sprites/FooBar.png"
+	3 -> Suivre les commentaires du fichier "server/Plugins/Sources/Includes/Sample.h"
+	4 -> Suivre les commentaires du fichier "server/Plugins/Sources/Includes/Sample.cpp"
